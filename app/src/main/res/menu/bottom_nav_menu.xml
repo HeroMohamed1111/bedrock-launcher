@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/launcherFragment"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Launcher" />
+    <item
+        android:id="@+id/modsFragment"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Mods" />
+    <item
+        android:id="@+id/serversFragment"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Servers" />
+    <item
+        android:id="@+id/downloadsFragment"
+        android:icon="@android:drawable/stat_sys_download"
+        android:title="Downloads" />
+    <item
+        android:id="@+id/newsFragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="News" />
+</menu>
