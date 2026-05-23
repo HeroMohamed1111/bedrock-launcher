@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/launcherFragment">
+
+    <!-- ── Launcher ──────────────────────────────────── -->
+    <fragment
+        android:id="@+id/launcherFragment"
+        android:name="com.bedrocklaunch.ui.launcher.LauncherFragment"
+        android:label="Launcher"
+        tools:layout="@layout/fragment_launcher" />
+
+    <!-- ── Mods ──────────────────────────────────────── -->
+    <fragment
+        android:id="@+id/modsFragment"
+        android:name="com.bedrocklaunch.ui.mods.ModsFragment"
+        android:label="Mods"
+        tools:layout="@layout/fragment_mods">
+
+        <action
+            android:id="@+id/action_modsFragment_to_modDetailFragment"
+            app:destination="@id/modDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/modDetailFragment"
+        android:name="com.bedrocklaunch.ui.mods.ModDetailFragment"
+        android:label="Mod Detail"
+        tools:layout="@layout/fragment_mod_detail" />
+
+    <!-- ── Servers ────────────────────────────────────── -->
+    <fragment
+        android:id="@+id/serversFragment"
+        android:name="com.bedrocklaunch.ui.servers.ServersFragment"
+        android:label="Servers"
+        tools:layout="@layout/fragment_servers" />
+
+    <!-- ── Downloads ─────────────────────────────────── -->
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="com.bedrocklaunch.ui.downloads.DownloadsFragment"
+        android:label="Downloads"
+        tools:layout="@layout/fragment_downloads" />
+
+    <!-- ── News ──────────────────────────────────────── -->
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.bedrocklaunch.ui.news.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+
+</navigation>
