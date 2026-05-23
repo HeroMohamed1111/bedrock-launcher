@@ -74,6 +74,8 @@ dependencies {
     // Hilt DI
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
+    implementation(libs.hilt.work)
+    kapt(libs.hilt.work.compiler)
 
     // Room DB
     implementation(libs.room.runtime)
