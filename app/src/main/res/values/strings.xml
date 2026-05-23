@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BedrockLaunch</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_launcher">Launcher</string>
+    <string name="nav_mods">Mods</string>
+    <string name="nav_servers">Servers</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_news">News</string>
+
+    <!-- Launcher screen -->
+    <string name="launch_minecraft">Launch Minecraft</string>
+    <string name="not_installed">Minecraft not installed</string>
+    <string name="get_on_play_store">Get on Play Store</string>
+    <string name="profiles_header">Profiles</string>
+    <string name="add_profile">+ Add Profile</string>
+    <string name="installed_packs">Installed Packs</string>
+    <string name="scan_packs">Scan</string>
+
+    <!-- Mods screen -->
+    <string name="search_mods_hint">Search mods and addons…</string>
+    <string name="source_modrinth">Modrinth</string>
+    <string name="source_curseforge">CurseForge</string>
+    <string name="download_mod">Download</string>
+    <string name="open_page">Open Page</string>
+    <string name="no_mods_found">No mods found</string>
+
+    <!-- Servers screen -->
+    <string name="search_servers_hint">Search servers…</string>
+    <string name="tab_public">Public</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="join_server">Join</string>
+    <string name="ping_server">Ping</string>
+
+    <!-- Downloads screen -->
+    <string name="clear_finished">Clear Finished</string>
+    <string name="no_downloads">No downloads yet</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <!-- News screen -->
+    <string name="no_news">No news available</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">Network error. Check your connection.</string>
+</resources>
