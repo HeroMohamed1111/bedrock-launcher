@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BedrockLaunch" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#8CD98A</item>
+        <item name="colorOnPrimary">#003909</item>
+        <item name="colorPrimaryContainer">#005313</item>
+        <item name="colorOnPrimaryContainer">#A8F5A2</item>
+        <item name="colorSecondary">#B9CCB3</item>
+        <item name="colorOnSecondary">#243423</item>
+        <item name="colorSecondaryContainer">#3A4B38</item>
+        <item name="colorOnSecondaryContainer">#D5E8CE</item>
+        <item name="colorTertiaryContainer">#1F4D52</item>
+        <item name="colorOnTertiaryContainer">#BCEBF0</item>
+        <item name="colorSurface">#101410</item>
+        <item name="colorOnSurface">#E0E3DB</item>
+        <item name="colorSurfaceVariant">#404942</item>
+        <item name="colorOnSurfaceVariant">#C0C8BE</item>
+        <item name="colorError">#FFB4AB</item>
+        <item name="android:windowBackground">#101410</item>
+    </style>
+
+    <style name="Theme.BedrockLaunch.SplashScreen" parent="Theme.BedrockLaunch">
+        <item name="postSplashScreenTheme">@style/Theme.BedrockLaunch</item>
+        <item name="windowSplashScreenBackground">#005313</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+    </style>
+</resources>
