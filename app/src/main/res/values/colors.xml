@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 light theme tokens (Minecraft green accent) -->
+    <color name="md_theme_primary">#1E7F29</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#A8F5A2</color>
+    <color name="md_theme_onPrimaryContainer">#002106</color>
+    <color name="md_theme_secondary">#52634F</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#D5E8CE</color>
+    <color name="md_theme_onSecondaryContainer">#101F0E</color>
+    <color name="md_theme_tertiary">#38656A</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_tertiaryContainer">#BCEBF0</color>
+    <color name="md_theme_onTertiaryContainer">#002023</color>
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+    <color name="md_theme_background">#FBFDF6</color>
+    <color name="md_theme_onBackground">#181D18</color>
+    <color name="md_theme_surface">#FBFDF6</color>
+    <color name="md_theme_onSurface">#181D18</color>
+    <color name="md_theme_surfaceVariant">#DCE4D9</color>
+    <color name="md_theme_onSurfaceVariant">#404942</color>
+    <color name="md_theme_outline">#707972</color>
+    <color name="md_theme_outlineVariant">#C0C8BE</color>
+    <color name="md_theme_scrim">#000000</color>
+    <color name="md_theme_inverseSurface">#2D322D</color>
+    <color name="md_theme_inverseOnSurface">#EFF1EB</color>
+    <color name="md_theme_inversePrimary">#8CD98A</color>
+    <color name="md_theme_surfaceTint">#1E7F29</color>
+</resources>
